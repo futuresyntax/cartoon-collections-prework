@@ -4,6 +4,7 @@ def roll_call_dwarves(dwarves)
     puts "#{position+1}. #{dwarf}"
   end
 end
+def 
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
@@ -27,10 +28,8 @@ def find_the_cheese(array)
 return nil
 end
 
-# def find_the_cheese (array)
-# if array.include?[cheddar, gouda, camembert]
-# return true
-# else
-# return nil
-# end
-# end
+def find_the_cheese (array)
+if array.find [cheddar, gouda, camembert]
+  return true
+end
+
