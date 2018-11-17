@@ -31,3 +31,4 @@ def find_the_cheese (array)
 if array.find [cheddar, gouda, camembert]
   return true
 end
+end
