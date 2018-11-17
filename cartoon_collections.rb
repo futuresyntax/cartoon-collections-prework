@@ -1,14 +1,10 @@
 
-# def roll_call_dwarves(dwarves)
-#   dwarves.each_with_index do |dwarf, position|
-#     puts "#{position+1}. #{dwarf}"
-#   end
-# end
-def roll_call_dwrves(dwarves)
+def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, position|
     puts "#{position+1}. #{dwarf}"
   end
 end
+
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
