@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |call|
+  planeteer_calls.map do |call|
     call.capitalize + "!"
   end
 end
@@ -26,3 +26,11 @@ def find_the_cheese(array)
   end
 return nil
 end
+
+# def find_the_cheese (array)
+# if array.include?[cheddar, gouda, camembert]
+# return true
+# else
+# return nil
+# end
+# end
