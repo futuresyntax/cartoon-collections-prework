@@ -1,9 +1,9 @@
 
-def roll_call_dwarves(dwarves)
-  dwarves.each_with_index do |dwarf, position|
-    puts "#{position+1}. #{dwarf}"
-  end
-end
+# def roll_call_dwarves(dwarves)
+#   dwarves.each_with_index do |dwarf, position|
+#     puts "#{position+1}. #{dwarf}"
+#   end
+# end
 def roll_call_dwrves(dwarves)
   dwarves.each_with_index do |dwarf, position|
     puts "#{position+1}. #{dwarf}"
