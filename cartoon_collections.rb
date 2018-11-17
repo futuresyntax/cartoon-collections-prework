@@ -28,7 +28,7 @@ end
 # end
 
 def find_the_cheese (array)
-if array.find [cheddar, gouda, camembert]
+if (array).find [cheddar, gouda, camembert]
   return true
 else
   return nil
