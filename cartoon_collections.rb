@@ -4,7 +4,6 @@ def roll_call_dwarves(dwarves)
     puts "#{position+1}. #{dwarf}"
   end
 end
-def
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
