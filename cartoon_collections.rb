@@ -17,20 +17,14 @@ def long_planeteer_calls(words)
   end
 end
 
-# def find_the_cheese(array)
-#   cheese_types = ["cheddar", "gouda", "camembert"]
-#   array.each do |item|
-#     if cheese_types.include?(item)
-#       return item
-#     end
-#   end
-# return nil
-# end
+def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.each do |item|
+    if cheese_types.include?(item)
+      return item
+    end
+  end
+return nil
+end
 
-def find_the_cheese (array)
-if (array).find [cheddar, gouda, camembert]
-  return true
-else
-  return nil
-end
-end
+
